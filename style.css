@@ -4,29 +4,33 @@
   margin: 0;
 }
 
+/*BODY*/
 body {
     background-color: rgb(254, 201, 210);
     color: white;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
+/*STYLING*/
 .padding {
   padding-bottom: 1rem;
 }
 
+/*HEADER*/
 header {
   width: 100%;
   text-align: center;
   font-size: 16px;
-
 }
 
+/*HEADER IMAGE*/
 img {
   padding: 2px;
   margin: 24px;
   border-radius: 1000rem;
 }
 
+/*NAVBAR*/
 nav {
   background-color: rgb(244, 145, 178);
   padding: 0 15px;
@@ -46,8 +50,7 @@ a {
   padding: 10px;
 }
 
-/*mobil*/
-
+/*MOBIL VERSION*/
 .menu {
   display: flex;
   flex-wrap: wrap;
@@ -72,14 +75,16 @@ a {
   display: none;
 }
 
-  section {
+/*SECTION*/
+section {
     display: flex;
     flex-direction: column;
     border: 2px solid;
     margin: 20px;
     padding: 20px;
 }
-  
+
+/*FOOTER*/  
 .footer-container {
   display: flex;
   flex-direction: row;

@@ -1,6 +1,6 @@
-@media all and (min-width: 700px) {
+@media all and (min-width: 600px) {
 
-    /*tablet menu*/
+    /*TABLET VERSION*/
     .menu {
         justify-content: center;
     }
@@ -11,7 +11,7 @@
         order: 2;
     }
     
-    /* Desktop menu */
+    /* DESKTORP VERSION */
     @media all and (min-width: 960px) {
         .menu {
             align-items: flex-start;
@@ -29,6 +29,6 @@
         .toggle {
             display: none;
         }
-    }
-    
+     }
+     
     }
